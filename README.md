@@ -5,13 +5,7 @@
 
 Gemini is a modern LaTeX [beamerposter] theme.
 
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini-small.png">
-</a>
-</p>
-
-If you're looking for a beamer presentation theme, take a look at [Auriga].
+![Compiled Document](https://github.com/lsiddd/cds_poster/raw/master/0001.jpg)
 
 ## Dependencies
 
