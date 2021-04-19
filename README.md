@@ -45,22 +45,6 @@ The alternative themes are intended to be inspiration for you to make your own
 color theme. You're highly recommended to make your own color theme (it's
 really easy!) or use the default Gemini theme.
 
-### MIT theme
-
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-mit.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-mit-small.png">
-</a>
-</p>
-
-### LabSix theme
-
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-labsix.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-labsix-small.png">
-</a>
-</p>
-
 ## Design goals
 
 * **Minimal**: clean and easy to read, so that the emphasis is on the content
