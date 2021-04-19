@@ -1,4 +1,7 @@
-# Gemini [![Build Status](https://github.com/anishathalye/gemini/workflows/CI/badge.svg)](https://github.com/anishathalye/gemini/actions?query=workflow%3ACI)
+# CDS LaTeX Poster Template (This is clone of the gemini template, check it on anishathalye/gemini)
+
+
+<!-- # Gemini [![Build Status](https://github.com/anishathalye/gemini/workflows/CI/badge.svg)](https://github.com/anishathalye/gemini/actions?query=workflow%3ACI) -->
 
 Gemini is a modern LaTeX [beamerposter] theme.
 
