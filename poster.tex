@@ -1,0 +1,111 @@
+\documentclass[final]{beamer}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
+\usetheme{gemini}
+\usecolortheme{mit}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\usepackage{helvet} % or helvet
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+% \usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+\usepackage{booktabs} % Top and bottom rules for table
+% \usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+% \usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{watermark}
+\usepackage{multirow}
+\usepackage{algorithm2e}
+\usepackage{units}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\setmainfont{TeX Gyre Schola}
+\setmathfont[FakeBold=0.5]{Latin Modern Math}
+
+% ====================
+% Lengths
+% ====================
+
+% If you have N columns, choose \sepwidth and \colwidth such that
+% (N+1)*\sepwidth + N*\colwidth = \paperwidth
+\newlength{\sepwidth}
+\newlength{\colwidth}
+\setlength{\sepwidth}{0.025\paperwidth}
+\setlength{\colwidth}{0.3\paperwidth}
+
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+\newcommand{\sigla}{MOES}
+\newcommand{\eg}{\textit{e.g.}}
+\newcommand{\ie}{\textit{i.e.}}
+\newcommand{\et}{\textit{et al.}}
+\newcommand{\sid}[1]{\textcolor{orange}{[sid: #1]}}
+\newcommand{\dlr}[1]{\textcolor{blue}{[#1]}}
+
+% ====================
+% Title
+% ====================
+
+\title{Presentation Title}
+
+\author{Lucas Pacheco\inst{1}}
+
+\institute[shortinst]{\inst{1} University of Bern}
+
+% ====================
+% Footer (optional)
+% ====================
+
+\footercontent{
+%   \href{https://www.example.com}{https://www.example.com} \hfill
+  \href{https://im2021.ieee-im.org/}{IFIP/IEEE International Symposium on Integrated Network Management} \hfill
+  \href{mailto:lucas.pacheco@inf.unibe.ch}{lucas.pacheco@inf.unibe.ch}}
+% (can be left out to remove footer)
+
+% ====================
+% Logo (optional)
+% ====================
+
+% use this to include logos on the left and/or right side of the header:
+\logoright{\includegraphics[height=7cm]{unibern_logo.png}}
+% \logoleft{\includegraphics[height=7cm]{logo2.pdf}}
+
+% ====================
+% Body
+% ====================
+
+\begin{document}
+
+\begin{frame}[t]
+\begin{columns}[t]
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+\begin{block}{This is a block of text.}
+\end{block}
+
+\begin{block}{Motivation and Contributions}
+
+\begin{itemize}
+    \item 
+\end{itemize}
+
+
+
+\bibliographystyle{plain}
+\bibliography{poster}
+
+\end{block}
+\end{column}
+
+\separatorcolumn
+\end{columns}
+\end{frame}
+
+\end{document}
